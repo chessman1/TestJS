@@ -17,7 +17,7 @@ describe("calculator", function () {
 	
 	describe("substract", function() {
 		it("When 4 and 2, should return 2", function () {
-			var actual = calculator.substract(a,b); // act
+			var actual = calculator.subtraction(a,b); // act
 			expect(actual).toEqual(2); //assert
 		});
 	});
@@ -30,10 +30,9 @@ describe("calculator", function () {
 		
 		describe("multiply", function() {
 		it("When 4 and 2, should return 8", function () {
-			var actual = calculator.multiply(a,b);
+			var actual = calculator.multiplication(a,b);
 			expect(actual).toEqual(8);
 			});
 		});
 	});
 });
-
